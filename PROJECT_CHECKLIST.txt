@@ -1,0 +1,26 @@
+DIAMORA - Project checklist
+
+Completed in this revised package:
+1. Project folders include html, images, css, js, videos, plus modal/slider assets.
+2. Seven HTML pages are organized inside html/.
+3. Semantic HTML elements include header, nav, section, aside and footer.
+4. Basic HTML elements include headings, paragraphs, lists and a real HTML table on the About page.
+5. Contact page includes Font Awesome communication icons.
+6. Register and login interfaces include client-side validation.
+7. Homepage includes the WowSlider-style local engine and automatic/arrow/dot slider behavior.
+8. Flexbox/Grid layout is used in the CSS.
+9. Responsive Media Queries are included.
+10. Toastr notification library is included for the registration success notification, with Bootstrap Toast fallback.
+11. Two Bootstrap Modals are loaded by jQuery Ajax from modals/offer.html and modals/care.html.
+12. Bootstrap and jQuery are used.
+
+Important external submission steps:
+- GitHub upload must be done by the student.
+- The Cursa Kevin Powell responsive website certificate must be obtained by the student and submitted if requested by the instructor.
+
+Important note about WowSlider:
+- The project contains the required WowSlider-style engine/markup and the homepage works as an image slider.
+- This package was not exported by the proprietary WOWSlider desktop publisher, so official WOWSlider provenance cannot be claimed without an official export from that software.
+
+Ajax note:
+- Run the project through VS Code Live Server (or another local HTTP server) so Ajax can load the modal files.

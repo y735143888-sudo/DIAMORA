@@ -1,0 +1,16 @@
+#wowslider-container1{display:block;position:relative;width:100%;height:100%;overflow:hidden;background:#111;direction:ltr;}
+#wowslider-container1 .ws_images{position:absolute;left:0;top:0;width:100%;height:100%;overflow:hidden;}
+#wowslider-container1 .ws_images ul{position:relative;margin:0;padding:0;width:100%;height:100%;list-style:none;}
+#wowslider-container1 .ws_images li{position:absolute;inset:0;margin:0;padding:0;display:none;opacity:0;transform:scale(1.02);transition:opacity .9s ease,transform 5.5s ease;}
+#wowslider-container1 .ws_images li.ws_current{display:block;opacity:1;transform:scale(1);z-index:2;}
+#wowslider-container1 .ws_images img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;background:#111;}
+#wowslider-container1 .ws_overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.52) 0%,rgba(0,0,0,.18) 32%,rgba(0,0,0,0) 58%,rgba(0,0,0,0) 100%);z-index:3;pointer-events:none;}
+#wowslider-container1 .ws_prev,#wowslider-container1 .ws_next{position:absolute;top:50%;z-index:6;width:46px;height:46px;margin-top:-23px;border:1px solid rgba(201,162,39,.7);border-radius:50%;background:rgba(0,0,0,.55);color:#fff;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.25s;}
+#wowslider-container1 .ws_prev{left:22px}.ws_next{right:22px}
+#wowslider-container1 .ws_prev:hover,#wowslider-container1 .ws_next:hover{background:#c9a227;color:#111;transform:scale(1.05)}
+#wowslider-container1 .ws_bullets{position:absolute;bottom:22px;left:0;right:0;z-index:7;text-align:center;direction:ltr}
+#wowslider-container1 .ws_bullets a{display:inline-flex;width:10px;height:10px;margin:0 5px;border-radius:50%;background:rgba(255,255,255,.55);border:1px solid rgba(255,255,255,.7);text-indent:-9999px;vertical-align:middle;cursor:pointer;transition:.25s}
+#wowslider-container1 .ws_bullets a.ws_sel{width:12px;height:12px;background:#c9a227;border-color:#c9a227;box-shadow:0 0 8px rgba(201,162,39,.55)}
+#wowslider-container1 .ws_script{position:absolute;left:-9999px}
+#wowslider-container1 .ws_shadow{position:absolute;left:0;right:0;bottom:-1px;height:28px;z-index:5;box-shadow:0 8px 28px rgba(0,0,0,.45);pointer-events:none}
+@media(max-width:768px){#wowslider-container1 .ws_prev,#wowslider-container1 .ws_next{width:38px;height:38px;margin-top:-19px;font-size:17px}.ws_prev{left:10px!important}.ws_next{right:10px!important}.ws_bullets{bottom:14px!important}}
